@@ -60,6 +60,12 @@
 </header>
     
 </section>
+
+
+<!-- Begin WP Menu -->
+<?php wp_nav_menu(array('theme_location' => 'navbar-wrapper')); ?>
+<!-- Begin WP Menu -->
+      
       
     <div class="navbar-wrapper">
       <div class="container-fluid">
@@ -115,7 +121,13 @@
   <li><a href="index.html">Home</a> <span class="divider"></span></li>
   <li class="active"><a href="product.html"><b>Product</b></a>
 </ul>
-  
+
+
+<!-- Begin WP Side Menu -->
+<?php wp_list_pages(array('title_li' => 'col-md-3')); ?>   
+<!-- End WP Side Menu -->
+
+      
 <!-- side nav -->
 <div class="col-md-3">
     <ul class="nav nav-pills nav-stacked">

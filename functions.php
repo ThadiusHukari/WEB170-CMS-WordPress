@@ -9,4 +9,10 @@ Description: Web170 Class class in Spring 2017 Quarter for Content Management Sy
 Version: 42.0
 */
 
+// Start Register Menu Locations
+register_nav_menus(array('main-menu' => __('Main Menu'),));
+// End Register Menu Locations
+
+
+
 ?>
